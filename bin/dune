@@ -1,0 +1,5 @@
+(executable
+ (public_name cligraph)
+ (name main)
+ (modes byte exe)
+ (libraries cligraph unix))
