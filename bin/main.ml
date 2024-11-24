@@ -16,9 +16,18 @@ let main () =
   (* let height, width = get_terminal_size () in *)
   let opts =
     {
-      rows = 15;
-      cols = 100;
-      ptype = Scatter { ch = "+"; color = Cligraph.Colors.Blue };
+      rows = 45;
+      cols = 170;
+      ptype = Scatter { ch = "+"; color = Cligraph.Colors.Cyan };
+      ticks = true;
+    }
+  in
+
+  let bar_opts =
+    {
+      rows = 45;
+      cols = 170;
+      ptype = Bar { color = Cligraph.Colors.Red };
       ticks = true;
     }
   in
